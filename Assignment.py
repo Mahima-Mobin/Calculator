@@ -1,7 +1,7 @@
-def get_number(prompt):
+def get_number(value):
     while True:
         try:
-            return float(input(prompt))
+            return float(input(value))
         except ValueError:
             print("Invalid input! Please enter a valid number.")
 def add():
@@ -53,4 +53,5 @@ def menu():
     else:
         print("Invalid Choice!")
 menu()
+
 
